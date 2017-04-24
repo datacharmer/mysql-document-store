@@ -1,0 +1,138 @@
+[
+        {
+            "_id": 1,
+            "country": "UK",
+            "category": "contractor",
+            "location": "London",
+            "name": "John",
+            "salary": 5000,
+            "gender": "m",
+            "department": "pers"
+        },
+        {
+            "_id": 2,
+            "country": "Italy",
+            "category": "employee",
+            "location": "Rome",
+            "name": "Mario",
+            "salary": 6000,
+            "gender": "m",
+            "department": "pers"
+        },
+        {
+            "_id": 3,
+            "country": "Germany",
+            "category": "employee",
+            "location": "Bonn",
+            "name": "Frank",
+            "salary": 5000,
+            "gender": "m",
+            "department": "sales",
+            "sales" : [
+                {
+                    "class_name": "software",
+                    "sale_date": "2003-10-01",
+                    "customer": "DataSmart",
+                    "sale_amount": 23000
+                },
+                {
+                    "class_name": "hardware",
+                    "sale_date": "2003-10-12",
+                    "customer": "NewHardware",
+                    "sale_amount": 45000
+                },
+                {
+                    "class_name": "services",
+                    "sale_date": "2003-11-04",
+                    "customer": "DataSmart",
+                    "sale_amount": 60000
+                } 
+                ]
+        },
+        {
+            "_id": 4,
+            "country": "Germany",
+            "category": "employee",
+            "location": "Berlin",
+            "name": "Otto",
+            "salary": 6000,
+            "gender": "m",
+            "department": "dev"
+        },
+        {
+            "_id": 5,
+            "country": "Germany",
+            "category": "consultant",
+            "location": "Munich",
+            "name": "Susan",
+            "salary": 5500,
+            "gender": "f",
+            "department": "sales",
+            "sales" : [
+               {
+                    "name": "Susan",
+                    "class_name": "software",
+                    "sale_date": "2003-11-02",
+                    "customer": "ViewData",
+                    "sale_amount": 25000
+                },
+                {
+                    "name": "Susan",
+                    "class_name": "services",
+                    "sale_date": "2003-10-13",
+                    "customer": "SmartEdu",
+                    "sale_amount": 18000
+                }
+            ]
+        },
+        {
+            "_id": 6,
+            "country": "UK",
+            "category": "contractor",
+            "location": "London",
+            "name": "Martin",
+            "salary": 5500,
+            "gender": "m",
+            "department": "sales",
+            "sales" :
+            [
+                {
+                    "name": "Martin",
+                    "class_name": "hardware",
+                    "sale_date": "2003-10-12",
+                    "customer": "SmartEdu",
+                    "sale_amount": 50000
+                }
+            ]
+        },
+        {
+            "_id": 7,
+            "country": "Germany",
+            "category": "employee",
+            "location": "Berlin",
+            "name": "Mary",
+            "salary": 5500,
+            "gender": "f",
+            "department": "pers"
+        },
+        {
+            "_id": 8,
+            "country": "Germany",
+            "category": "employee",
+            "location": "Munich",
+            "name": "Bill",
+            "salary": 5000,
+            "gender": "m",
+            "department": "pers"
+        },
+        {
+            "_id": 9,
+            "country": "Italy",
+            "category": "consultant",
+            "location": "Rome",
+            "name": "June",
+            "salary": 6000,
+            "gender": "f",
+            "department": "dev"
+        }
+] 
